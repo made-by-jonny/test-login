@@ -4,7 +4,6 @@ const useValidation = (initialMessage = {message: null, type: null}) => {
     const [message, setMessage] = useState(initialMessage);
 
     const validate = (e) => {
-        console.log("eeee")
         e.preventDefault()
         
         if(e.target.validity.valid) {
