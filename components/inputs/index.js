@@ -29,7 +29,7 @@ const Input = props => {
       />
       {message.type !== "error" 
         ? null
-        : <span className={`message ${message.type}`}>{message.message}</span>
+        : <div className={`message ${message.type}`}>{message.message}</div>
       }
     </>
   );
