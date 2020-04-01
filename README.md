@@ -12,5 +12,5 @@
 #### Run unit tests
 - npm run test
 
-### Run coverage
+#### Run coverage
 - npm run test:coverage
