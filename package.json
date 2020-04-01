@@ -1,0 +1,42 @@
+{
+  "name": "login-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:coverage": "jest --coverage",
+    "test": "jest --watch",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "husky": "^4.2.3",
+    "moment": "^2.24.0",
+    "next": "^9.3.0",
+    "parse": "^2.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "sass": "^1.26.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass|css?raw)$": "identity-obj-proxy"
+    }
+  }
+}

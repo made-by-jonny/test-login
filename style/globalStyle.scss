@@ -1,0 +1,83 @@
+body {
+    background: #fafafa;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+html,body, #__next {
+    height:100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #464446;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.sub-heading {
+    color: #bcbbbc;
+    font-size: 0.9rem;
+}
+
+label {
+    color: #999799;
+    font-size: 0.85rem;
+    &.check-label {
+        color: #5b575a;
+        font-size: 0.8rem;
+    }
+}
+
+input[type="email"] {
+    all: unset;
+    box-sizing: border-box;
+    display: block;
+    font-weight: 300;
+    width:100%;
+    border: 1px solid #f3f3f3;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 7px;
+}
+
+button {
+    clear: both;
+    all: unset;
+    color: #656265;
+    margin-top: 40px;
+    font-weight: 200;
+    min-width: 81px;
+    min-height: 32px;
+    border-radius: 5px;
+    font-size:0.85rem;
+    display: flex;
+    border: 1px solid #f3f3f3;
+    justify-content: center;
+    align-items: center; 
+    transition: color .3s, border .3s;
+    &:hover {
+        cursor: pointer;
+        border-color: #4a8f57;
+        color: #4a8f57;
+    }
+}
+
+main {
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    display: inline-block;
+    margin: 10px 0;
+    color: #f11616;
+    font-size: 0.8rem;
+}
